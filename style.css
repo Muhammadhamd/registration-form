@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #1c1e26;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+    
+}
+.main-container{
+max-width: 1344px;
+width: 100%;
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.main-container .container{
+display: flex;
+justify-content: center;
+margin: 6% 0 0 0;
+}
+form{
+font-family: 'Ubuntu Condensed';
+
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    background-color: black;
+    background: transparent;
+    border-radius: 12px;
+    transition: 1s;
+    
+}
+ form:hover{
+    box-shadow: 0px 0px 15px #ccc;
+    transform: 10s;
+}
+ form input{
+    width: 100%;
+    padding: 20px 0;
+    font-size: 20px;
+    background-color:#474747;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    margin: 10px 0;
+    outline: none;
+}
+
+form input[type='First-name']{
+    width: 49%;
+   
+    
+    background-color:#474747;
+
+    border-radius: 12px;
+    border: none;
+    color: white;
+    margin: 10px 2px;
+}
+ form input[type='last-name']{
+    width: 49%;
+   
+    
+    background-color:#474747;
+
+    border-radius: 12px;
+    border: none;
+    color: white;
+    margin: 10px 2px;
+    
+}
+ form button{
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 100%;
+    background-color: #585029;
+    width: 100%;
+    max-width: 200px;
+    margin: 7px 0;
+    color: white;
+    cursor: pointer;
+    margin: 10px 0px 0px 35%;
+}
+ form button:hover{
+    background-color: #5c5636;
+
+}
+
+
+ form p{
+    color: white;
+    font-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 0 0 27%;
+}
+ form p a{
+    color: rgb(104, 118, 167);
+    font-size: 130%;
+    text-decoration: none;
+}
+form h3{
+    margin: 0 0 0 40%;
+    font-size: 36px;
+    color: #ccc;
+    font-weight: 600;
+    font-family: '';
+}
+@media screen and (max-width:730px){
+    form {
+        max-width: 600px;
+    }
+    form button{
+        margin: 12px 0 0 34%;
+    }
+}
+@media screen and (max-width:610px) {
+    form {
+        max-width: 500px;
+    }
+    form h3{
+        margin: 0 0 0 37%;
+        font-size:34px ;
+    }
+    form input[type="First-name"]{
+        width: 48%;
+    }
+    form input[type="last-name"]{
+        width: 48%;
+    }
+    form button{
+        margin: 12px 0 0 33%;
+    }
+
+}
+@media screen and (max-width:520px) {
+    form {
+        max-width: 400px;
+
+    }
+    form h3{
+        margin: 0 0 0 33%;
+        font-size:34px ;
+    }
+    form button{
+        margin: 0;
+        max-width: 1000px;
+    }
+    form input{
+        padding: 15px;
+    }
+} 
+@media screen and (max-width:450px) {
+    form button{
+        
+    }
+}
+ @media screen and (max-width:420px) {
+    form button{
+       width: 100%;
+        
+    }
+    form h3{
+        margin: 0 0 0 30%;
+        
+    }
+    form {
+        max-width: 350px;
+    }
+}
